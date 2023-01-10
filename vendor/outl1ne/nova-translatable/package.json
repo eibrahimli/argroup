@@ -1,0 +1,23 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "mix",
+    "watch": "mix watch",
+    "hot": "mix watch --hot",
+    "prod": "mix --production",
+    "format": "prettier --write 'resources/**/*.{js,scss,vue}'",
+    "nova:install": "npm --prefix='./vendor/laravel/nova' ci"
+  },
+  "devDependencies": {
+    "@vue/babel-plugin-jsx": "^1.1.1",
+    "laravel-mix": "^6.0.49",
+    "postcss": "^8.4.16",
+    "prettier": "^2.7.1",
+    "sass": "^1.54.8",
+    "sass-loader": "^13.0.2",
+    "vue-loader": "^17.0.0"
+  },
+  "dependencies": {
+    "vue": "^3.2.38"
+  }
+}
