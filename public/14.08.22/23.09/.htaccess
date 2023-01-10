@@ -1,0 +1,30 @@
+RewriteEngine On
+RewriteCond %{SERVER_PORT} 80 
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301] #HTTPSe kechme kodu
+
+RewriteRule    ^haqqimizda/?$    about.php    [NC,L]   
+RewriteRule    ^xidmetler/?$    services.php    [NC,L]   
+RewriteRule    ^qalereya/?$    gallery.php    [NC,L]   
+RewriteRule    ^layiheler/?$    projects.php    [NC,L]   
+RewriteRule    ^sertifikatlar/?$    awards.php    [NC,L]   
+RewriteRule    ^xeberler/?$    news.php    [NC,L]   
+RewriteRule    ^elaqe/?$    contact.php    [NC,L]    
+RewriteRule    ^komandamiza_qatil/?$    join_us.php    [NC,L]    
+RewriteRule    ^services/?$    services.php    [NC,L]   
+
+
+
+RewriteRule    ^layiheler/([0-9a-zA-Z-_]+)/([0-9]+)$    projects.php?st=$2    [NC,L]  
+RewriteRule    ^post/([A-Za-z0-9-]+)/?$    post.php?id=$1    [NC,L]  
+RewriteRule    ^xidmet/([0-9a-zA-Z-_]+)/([0-9]+)$    service.php?id=$2    [NC,L]  
+RewriteRule    ^layihe/([0-9a-zA-Z-_]+)/([0-9a-zA-Z-_]+)/([0-9]+)$    project-details.php?project=$3    [NC,L]  
+RewriteRule    ^layihe/([0-9a-zA-Z-_]+)/([0-9]+)$    project-details.php?project=$2    [NC,L]  
+RewriteRule    ^xeber/([0-9a-zA-Z-_]+)/([0-9]+)$    post.php?id=$2    [NC,L]  
+RewriteRule    ^xeberler/([0-9a-zA-Z-_]+)/([0-9]+)$    news.php?c=$2    [NC,L]
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# Set the “ea-php73” package as the default “PHP” programming language.
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php73 .php .php7 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit

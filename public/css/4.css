@@ -1,0 +1,26 @@
+.completedx{
+	color: ghostwhite;
+    position: absolute;
+    right: -1px;
+    border-bottom-left-radius: 5px;
+    top: 0px;
+    background: #209f65cf;
+    padding: 2px;
+    font-size: 12px;
+}
+.continuingx{
+	color: ghostwhite;
+    position: absolute;
+    right: -1px;
+    border-bottom-left-radius: 5px;
+    top: 0px;
+    background: #939f20cf;
+    padding: 2px;
+    font-size: 12px;
+}
+
+.clang{
+    background: lightsteelblue;
+    position: absolute;
+    
+}

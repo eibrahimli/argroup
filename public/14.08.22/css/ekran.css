@@ -1,0 +1,83 @@
+.hmb1{
+    transition: 1s;
+}
+
+.h100{
+height: 100px!important;
+}
+
+.hba{
+background-size: cover!important;
+}
+
+.partyorsub{
+    text-align: center;
+    margin-top: 5px;
+    padding: 5px;
+    color: white;
+    border-radius: 3px;
+    background: #8c8c8c;
+    font-size: 12pt;
+    margin-block-end: 15px;
+}
+
+.ekranlang33{
+    width: 25px; height: 15px;
+}
+.ekranlang33:hover{
+box-shadow: 0 0 4px 1px #ad0000;
+    transition: 0.5s;
+    border-radius: 2px;
+    transform: rotate(360deg);
+
+}
+.ekranlang33:active{
+    transition: 0.5s;
+padding: 4px;
+background: white;
+    border-radius: 4px;
+
+
+}
+
+.ul1{
+width: 100%;
+}
+
+.li1{
+    background: #9c8f8f78;
+    padding: 7px;
+    margin: 5px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 0 2px 0px #801414;
+    font-size: 11pt;
+}
+
+.li1:hover{
+    box-shadow: 0 0 7px 0px #801414;
+    transition: 0.3s;
+    font-size: 12pt;
+}
+
+.li1:active{
+    background: #941d1dd6;
+}
+
+.li1a{
+    color: white;
+    text-shadow: 0 0 8px #690808;
+}
+
+.incele{
+    position: absolute;
+    margin-top: -38px;
+    color: #ff0000;
+    right: 25px;
+    font-size: 19px;
+    text-shadow: 0px 0px 0px #5f5f5f;
+    font-weight: 500;
+    background: #63636333;
+    padding: 3px;
+    border-radius: 7px;
+}

@@ -1,0 +1,125 @@
+body{
+font-family: 'Poppins', sans-serif;
+}
+.card{
+        background: black!important;
+    padding-top: 20px!important;
+    border-radius: 10px!important;
+    color: white!important;
+}
+input{
+    border-radius: 10px!important;
+}
+
+.page-container2 {
+    background: #e7e7e7!important;
+    padding-left: 300px!important;
+}
+.account2{
+    background: #e7e7e7!important;
+}
+.header-desktop2{
+    background: #000!important;
+}
+
+.menu-sidebar2 .logo {
+      background: #000!important;
+}
+.statistic__item {
+    border-radius: 10px!important; 
+}
+
+.table-data2.table tbody tr{
+    background: #000!important;
+}
+.table-data2.table tbody td{
+    color: #fff!important; 
+}
+.table-data-feature .item:hover{
+    background: #000;
+    color: red;
+    border: 2px solid white!important;
+    transition: 0.3s;
+}
+.statistic__item{
+        border: 2px solid black!important;
+    border-left: none!important;
+    border-bottom: none!important;
+}
+
+.statistic__item span{
+  background: black;
+    cursor: pointer!important;
+    font-size: 17px;
+    font-weight: 500;
+    padding: 7px;
+    margin-top: 5px;
+    color: #fff;
+    display: block;
+    border-radius: 10px;
+    border: 2px solid;
+}
+
+.statistic__item span:hover{
+background: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: #000;
+    transition: 0.3s;
+}
+
+.cp{
+    cursor: pointer;
+}
+
+.pagex{
+    margin-top: 10px;
+    font-weight: 600!important;
+    background: #fff;
+    padding: 10px;
+    border-radius: 10px 0px;
+    color: black;
+    border: 2px solid;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.pagex:hover{
+        background: #000;
+    color: white;
+}
+
+.ni{
+    background: black;
+    padding: 5px;
+    border-radius: 50%;
+    color: white;
+}
+
+.h50{
+        height: 50px!important;
+    font-weight: 500!important;
+    font-size: 17px!important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
